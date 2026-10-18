@@ -17,20 +17,20 @@ const TOP_ROW_CARDS: ProblemCard[] = [
   {
     title: "Individual work and team work don't connect.",
     description: 'Ideas take shape in private chats, but getting them to the team means copying, pasting, and explaining all over again.',
-    bgClass: 'bg-[#EFF5FA]',
-    borderClass: 'border-[#D5E3F0]',
-  },
-  {
-    title: 'Shared tools make teams work their way, not yours.',
-    description: 'The few shared spaces that exist come with fixed workflows, roles, and steps.',
     bgClass: 'bg-[#EEF6EF]',
     borderClass: 'border-[#D4E7D6]',
   },
   {
+    title: 'Shared tools make teams work their way, not yours.',
+    description: 'The few shared spaces that exist come with fixed workflows, roles, and steps.',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
+  },
+  {
     title: 'Work is scattered across too many apps.',
     description: 'Discussions happen in chat, plans in documents, tasks in a tracker, and AI in yet another tab.',
-    bgClass: 'bg-[#FAF2EB]',
-    borderClass: 'border-[#EEDDCE]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
   },
 ];
 
@@ -38,20 +38,20 @@ const BOTTOM_ROW_CARDS: ProblemCard[] = [
   {
     title: 'Decisions get lost.',
     description: 'Teams decide things in meetings and threads, and weeks later nobody can find what was decided or why.',
-    bgClass: 'bg-[#FAF1F0]',
-    borderClass: 'border-[#EEDCD9]',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
   },
   {
     title: 'No one is sure what AI produced.',
     description: 'AI-made work moves into the team with no clear review. Nobody knows what the AI wrote or who approved it.',
-    bgClass: 'bg-[#FAF6E6]',
-    borderClass: 'border-[#ECE2C1]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
   },
   {
     title: 'New teammates start from zero.',
     description: "When someone joins, the project's history lives in other people's heads and chat logs.",
-    bgClass: 'bg-[#EEF5F7]',
-    borderClass: 'border-[#D3E5EB]',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
   },
 ];
 
@@ -71,7 +71,7 @@ export const ProblemSection: React.FC = () => {
           </h1>
         </div>
 
-        {/* 4 Cards Top Row - Light Pastel Color Tints */}
+        {/* 4 Cards Top Row - 2 Harmonious Colors Alternating */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4.5 mb-4.5">
           {TOP_ROW_CARDS.map((card, idx) => (
             <div 
@@ -88,7 +88,7 @@ export const ProblemSection: React.FC = () => {
           ))}
         </div>
 
-        {/* 3 Cards Bottom Row - Centered with Light Pastel Tints */}
+        {/* 3 Cards Bottom Row - Centered with 2 Harmonious Colors */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4.5 max-w-[840px] mx-auto">
           {BOTTOM_ROW_CARDS.map((card, idx) => (
             <div 

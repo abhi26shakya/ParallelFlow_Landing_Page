@@ -22,33 +22,33 @@ const LEFT_MANIFESTO_ITEMS: ManifestoItem[] = [
     number: '02',
     title: "Good answers shouldn't stay locked.",
     description: 'The best idea of the week often sits in a private window. Work should be easy to share.',
-    bgClass: 'bg-[#EFF5FA]',
-    borderClass: 'border-[#D5E3F0]',
-    badgeBgClass: 'bg-[#E1EDF7] text-[#295F8D]',
-  },
-  {
-    number: '03',
-    title: 'AI should hear the whole conversation.',
-    description: 'An AI that only knows what one person typed gives answers that miss what the team already decided.',
     bgClass: 'bg-[#EEF6EF]',
     borderClass: 'border-[#D4E7D6]',
     badgeBgClass: 'bg-[#DEF0E1] text-[#296D3F]',
   },
   {
+    number: '03',
+    title: 'AI should hear the whole conversation.',
+    description: 'An AI that only knows what one person typed gives answers that miss what the team already decided.',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
+    badgeBgClass: 'bg-[#F6ECD4] text-[#8C5D1F]',
+  },
+  {
     number: '04',
     title: 'Decisions should be remembered.',
     description: "The AI should hold the team's memory: what was decided, by whom, and why.",
-    bgClass: 'bg-[#FAF2EB]',
-    borderClass: 'border-[#EEDDCE]',
-    badgeBgClass: 'bg-[#F6E8DC] text-[#8F5528]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
+    badgeBgClass: 'bg-[#DEF0E1] text-[#296D3F]',
   },
   {
     number: '05',
     title: 'Everyone deserves a private place to think.',
     description: "You should be able to think and draft on your own, then share only what's ready.",
-    bgClass: 'bg-[#F6F2FB]',
-    borderClass: 'border-[#E4D8F3]',
-    badgeBgClass: 'bg-[#EDE4F8] text-[#633C94]',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
+    badgeBgClass: 'bg-[#F6ECD4] text-[#8C5D1F]',
   },
 ];
 
@@ -57,41 +57,41 @@ const RIGHT_MANIFESTO_ITEMS: ManifestoItem[] = [
     number: '06',
     title: 'Sharing should take one click.',
     description: "Moving work from a chat window shouldn't mean copying, reformatting, and explaining again.",
-    bgClass: 'bg-[#EEF7F4]',
-    borderClass: 'border-[#CEE7DE]',
-    badgeBgClass: 'bg-[#DDF0E8] text-[#2B6D4F]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
+    badgeBgClass: 'bg-[#DEF0E1] text-[#296D3F]',
   },
   {
     number: '07',
     title: 'AI should do real work, and people should approve it.',
     description: 'The AI does the work and a person signs it off.',
-    bgClass: 'bg-[#FAF1F0]',
-    borderClass: 'border-[#EEDCD9]',
-    badgeBgClass: 'bg-[#F6E6E3] text-[#934538]',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
+    badgeBgClass: 'bg-[#F6ECD4] text-[#8C5D1F]',
   },
   {
     number: '08',
     title: 'Every team works differently.',
     description: 'Fixed job titles never match how a real team works. Teams should set their own roles.',
-    bgClass: 'bg-[#FAF6E6]',
-    borderClass: 'border-[#ECE2C1]',
-    badgeBgClass: 'bg-[#F6EECD] text-[#7F6715]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
+    badgeBgClass: 'bg-[#DEF0E1] text-[#296D3F]',
   },
   {
     number: '09',
     title: 'Progress should be visible to everyone.',
     description: "One shared space shows where things are and what's blocking them.",
-    bgClass: 'bg-[#EEF5F7]',
-    borderClass: 'border-[#D3E5EB]',
-    badgeBgClass: 'bg-[#DFEDF2] text-[#28647D]',
+    bgClass: 'bg-[#FDF6EA]',
+    borderClass: 'border-[#EFE2C5]',
+    badgeBgClass: 'bg-[#F6ECD4] text-[#8C5D1F]',
   },
   {
     number: '10',
     title: 'Building is a loop, not a straight line.',
     description: "A product isn't done at launch. Feedback, fixes, and new ideas keep coming.",
-    bgClass: 'bg-[#FAF2EE]',
-    borderClass: 'border-[#EFDED8]',
-    badgeBgClass: 'bg-[#F7E7E0] text-[#91462D]',
+    bgClass: 'bg-[#EEF6EF]',
+    borderClass: 'border-[#D4E7D6]',
+    badgeBgClass: 'bg-[#DEF0E1] text-[#296D3F]',
   },
 ];
 
@@ -112,9 +112,9 @@ export const ManifestoSection: React.FC = () => {
           </h2>
         </div>
 
-        {/* 3-Step Flow Diagram - Light Colorful Pastels */}
+        {/* 3-Step Flow Diagram - 2 Harmonious Colors */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4.5 my-10 sm:my-14 max-w-[760px] mx-auto">
-          <div className="flex-1 w-full sm:w-auto bg-[#EFF5FA] hover:bg-white border border-[#D5E3F0] hover:border-[#B8D2E8] rounded-xl p-4.5 text-center shadow-[0_3px_12px_rgba(40,35,20,0.04)] hover:shadow-[0_8px_22px_rgba(40,35,20,0.07)] hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center min-h-[68px]">
+          <div className="flex-1 w-full sm:w-auto bg-[#FDF6EA] hover:bg-white border border-[#EFE2C5] hover:border-[#DFCDB0] rounded-xl p-4.5 text-center shadow-[0_3px_12px_rgba(40,35,20,0.04)] hover:shadow-[0_8px_22px_rgba(40,35,20,0.07)] hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center min-h-[68px]">
             <span className="text-[0.98rem] font-bold text-[#181816] leading-tight">
               Isolated Individual Chats
             </span>
@@ -134,14 +134,14 @@ export const ManifestoSection: React.FC = () => {
             →
           </div>
 
-          <div className="flex-1 w-full sm:w-auto bg-[#FAF2EB] hover:bg-white border border-[#EEDDCE] hover:border-[#DEC5B0] rounded-xl p-4.5 text-center shadow-[0_3px_12px_rgba(40,35,20,0.04)] hover:shadow-[0_8px_22px_rgba(40,35,20,0.07)] hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center min-h-[68px]">
+          <div className="flex-1 w-full sm:w-auto bg-[#FDF6EA] hover:bg-white border border-[#EFE2C5] hover:border-[#DFCDB0] rounded-xl p-4.5 text-center shadow-[0_3px_12px_rgba(40,35,20,0.04)] hover:shadow-[0_8px_22px_rgba(40,35,20,0.07)] hover:-translate-y-0.5 transition-all duration-200 flex items-center justify-center min-h-[68px]">
             <span className="text-[0.98rem] font-bold text-[#181816] leading-tight">
               Human Approval Flow
             </span>
           </div>
         </div>
 
-        {/* 2-Column Manifesto Items - Light Pastel Bento Cards */}
+        {/* 2-Column Manifesto Items - 2 Harmonious Colors Alternating */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4.5 max-w-[940px] mx-auto">
           {/* Left Column */}
           <div className="flex flex-col gap-4.5">
